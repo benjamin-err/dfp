@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DatabaseMigrationSettings" lastSelectedDirectory="src\main\resources\db\changelog\2024\02" liquibaseFileType="SQL">
+    <database-infos>
+      <database-info>
+        <option name="enabled" value="true" />
+        <dbms-id>mysql</dbms-id>
+      </database-info>
+    </database-infos>
+  </component>
+  <component name="JpaPluginProjectSettings" useLombokDto="false" />
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit name="Default" defaultIncludeChangeLogFile="src/main/resources/db/changelog/2024/02/27-01-changelog.sql">
+        <packages>
+          <package value="at.jku.dfp" />
+        </packages>
+      </persistence-unit>
+    </persistence-units>
+  </component>
+</project>
